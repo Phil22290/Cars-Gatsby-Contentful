@@ -1,0 +1,11 @@
+img {
+    /* position: relative; */
+  height: 50vh;
+  width: 100%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: auto; */
+  /* overflow: hidden; */
+  /* background-size: cover; */
+  object-fit: cover;
+}
