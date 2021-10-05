@@ -24,6 +24,10 @@
   color:#2fe0a0;
   font-weight: 700;
   margin: 3rem 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+
 }
 
 .cardgrid {

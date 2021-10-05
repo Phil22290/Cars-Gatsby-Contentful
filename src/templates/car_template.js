@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import "./car_template_css.scss"
 import Hero from '../components/hero'
 import Button from '@mui/material/Button';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export const query = graphql`
     query($slug: String!) {
@@ -17,7 +18,9 @@ export const query = graphql`
         price
         tax
         transmission
-        
+        image {
+          gatsbyImageData
+        }
         }
     }
 `
@@ -38,6 +41,9 @@ const CarData = props => {
         Go back
         </Button></div>
         
+        <div className="template-image">
+        <GatsbyImage classname="template-image" image={data.image.gatsbyImageData} /></div>
+
         <div className="container">
         <ul className="responsive-table-head">
             <li className="table-header">
