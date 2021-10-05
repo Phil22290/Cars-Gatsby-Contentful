@@ -27,37 +27,6 @@ const Carlist = () => {
     color: theme.palette.text.secondary,
   }));
 
-  // const image = getImage(edge.node.image)
-
-  // const data = useStaticQuery (
-
-  //   graphql`
-  //     query  {
-  //       allContentfulCar {
-  //         edges {
-  //           node {
-  //             id
-  //             brand
-  //             model
-  //             year
-  //             engineCapacity
-  //             fuel
-  //             fuelConsumption
-  //             mileage
-  //             price
-  //             transmission
-  //             tax
-  //             contentful_id
-  //             slug
-  //             image {
-  //               gatsbyImageData
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  // `)
-
     return (
 
       <div >
