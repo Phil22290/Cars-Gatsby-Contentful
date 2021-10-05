@@ -29,7 +29,7 @@ const Carlist = () => {
 
     return (
 
-      <div >
+      <div>
         <Grid container spacing={3}>
           {data.map(currentCar => {
             return (
